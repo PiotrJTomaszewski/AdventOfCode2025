@@ -1,0 +1,19 @@
+{
+    "build": {
+        "dockerfile": "Dockerfile"
+    },
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "aaron-bond.better-comments",
+                "foxundermoon.shell-format",
+                "Gruntfuggly.todo-tree",
+                "golang.Go"
+            ]
+        }
+    },
+    "remoteUser": "dev",
+    "workspaceMount": "source=${localWorkspaceFolder},target=/workspace,type=bind",
+    "workspaceFolder": "/workspace"
+}
+sudo
